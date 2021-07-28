@@ -1,20 +1,20 @@
 const obj = {
-    name: "Javier",
-    age: 23,
-    country: "MX",
+  name: "Javier",
+  age: 23,
+  country: "MX",
 };
 
 let { nameL, ...all } = obj;
 console.log(all);
 
 const obj3 = {
-    name: "Javier",
-    age: 23,
+  name: "Javier",
+  age: 23,
 };
 
 const obj2 = {
-    ...obj3,
-    country: "mx",
+  ...obj3,
+  country: "mx",
 };
 
 console.log(obj2);
@@ -23,19 +23,19 @@ console.log(obj2);
  * Promise Finally
  */
 const helloWorld = () => {
-    return new Promise((resolve, reject) => {
-        true
-            ? setTimeout(() => {
-                  resolve("Hello World!");
-              }, 3000)
-            : reject(new Error("Test Error"));
-    });
+  return new Promise((resolve, reject) => {
+    true
+      ? setTimeout(() => {
+          resolve("Hello World!");
+        }, 3000)
+      : reject(new Error("Test Error"));
+  });
 };
 
 helloWorld()
-    .then((result) => console.log("result -> ", result))
-    .catch((err) => console.log("err -> ", err))
-    .finally(() => console.log("finalizó"));
+  .then((result) => console.log("result -> ", result))
+  .catch((err) => console.log("err -> ", err))
+  .finally(() => console.log("finalizó"));
 
 /**
  * Regex

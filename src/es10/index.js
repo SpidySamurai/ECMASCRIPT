@@ -25,14 +25,14 @@ console.log(hello.trimEnd()); // final
 
 try {
 } catch /*(error) ya no es necesario colocarlo*/ {
-    error;
+  error;
 }
 
 //-------------fromEntries----------------------/
 // array to object
 let entries = [
-    ["name", "oscar"],
-    ["age", 32],
+  ["name", "oscar"],
+  ["age", 32],
 ];
 console.log(Object.fromEntries(entries));
 
