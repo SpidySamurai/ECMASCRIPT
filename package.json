@@ -1,11 +1,11 @@
 {
   "name": "ecmascript",
   "version": "1.0.0",
-  "description": "Entendiendo Ecma",
+  "description": "A collection of examples showcasing different versions of ECMAScript",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Javier Chi Ortiz",
+  "license": "MIT"
 }
