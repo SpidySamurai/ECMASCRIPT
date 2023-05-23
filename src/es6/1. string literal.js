@@ -48,4 +48,5 @@ console.log(literalMultiline);
 // The literalMultiline variable is assigned a multiline string using a template literal.
 // Line breaks are added within the template literal to create multiple lines of the string.
 // The value of literalMultiline is logged to the console using console.log(literalMultiline).
-// Both methods achieve the same result, which is a multiline string. However, the template literal approach provides a more concise and readable way to create multiline strings, as line breaks can be directly incorporated within the template without explicit concatenation or special characters.
+// Both methods achieve the same result, which is a multiline string. However, the template literal approach provides a more concise and readable way to create multiline strings, as line breaks can be directly incorporated within the template without explicit concatenation or special characters. 
+

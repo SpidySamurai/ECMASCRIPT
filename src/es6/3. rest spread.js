@@ -20,3 +20,11 @@ let country = 'MX'
 
 let data = {id:0, ...admin,country}
 console.log(data);
+
+function sum(num, ...values){
+    console.log(values);
+    console.log(num + values[0])
+    return num + values[0];
+}
+
+sum(1,1,2,3);
