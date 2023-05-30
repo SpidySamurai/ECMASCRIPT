@@ -1,11 +1,4 @@
-const usuario = {
-    name: 'Andres',
-    email: "andres@correo.com",
-    age: 23, //<-- Trailing comma
-}
+let array = [10,20,30, , , 40]
 
-const nombres = [
-    "Andres",
-    "Valeria",
-    "Jhesly", //<-- Trailing comma
- ]
+console.log(array);
+console.log(array.length);
