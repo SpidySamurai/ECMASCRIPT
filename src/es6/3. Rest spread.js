@@ -21,6 +21,7 @@ let country = 'MX'
 let data = {id:0, ...admin,country}
 console.log(data);
 
+// rest operator
 function sum(num, ...values){
     console.log(values);
     console.log(num + values[0])
